@@ -5,18 +5,17 @@
 
 body {
   font-family: 'Pretendard-Bold';
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 
 .wrap {
-  width: 11.5rem;
-  height: 3.5rem;
-  transform: translate(-10%, -10%);
+  width: 11.8rem;
+  height: 3.8rem;
 }
 
 .box {
