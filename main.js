@@ -10,7 +10,11 @@
   const get_text = (gap_day) => {
     if (gap_day == 0) {
       $d_day.innerHTML = 'DAY';
-    } else {
+    }
+    if (gap_day < 0) {
+      $d_day.innerHTML = gap_day * -1;
+    }
+    if (gap_day > 0) {
       $d_day.innerHTML = `${gap_day}`;
     }
   };
