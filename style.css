@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrap {
+  width: 20rem;
+  height: 15rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+  border: 2px solid #eee;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.d-day_box {
+  font-family: 'pretendard';
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
