@@ -13,8 +13,8 @@ body {
 }
 
 .wrap {
-  width: 15rem;
-  height: 8rem;
+  width: 12rem;
+  height: 5rem;
 }
 
 .box {
@@ -29,13 +29,13 @@ body {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .d-day_box {
   font-family: 'pretendard';
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #444;
 }
