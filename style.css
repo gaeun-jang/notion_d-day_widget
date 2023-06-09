@@ -10,11 +10,12 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 .wrap {
-  width: 15rem;
-  height: 6rem;
+  width: 18rem;
+  height: 7rem;
 }
 
 .box {
@@ -29,13 +30,13 @@ body {
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0;
 }
 
 .d-day_box {
   font-family: 'pretendard';
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #444;
 }
