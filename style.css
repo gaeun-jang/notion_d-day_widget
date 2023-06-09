@@ -1,17 +1,15 @@
 @font-face {
-    font-family: 'Pretendard-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Pretendard-Bold';
+  src: url('./Pretendard-Bold.woff') format('woff');
 }
 
 body {
+  font-family: 'Pretendard-Bold';
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  font-family: 'Pretendard-bold';
 }
 
 .wrap {
@@ -36,6 +34,8 @@ body {
 }
 
 .d-day_box {
+  font-family: 'pretendard';
+  font-weight: 700;
   font-size: 5rem;
   margin-bottom: 1rem;
   color: #444;
